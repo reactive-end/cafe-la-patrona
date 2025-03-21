@@ -1,0 +1,25 @@
+<section class="bg-linear-to-r from-60% from-golden to-dark-golden grid grid-cols-1 md:grid-cols-2">
+  <img draggable="false" class="h-full object-cover aspect-square" src="/images/cafetal_2.webp" alt="Dos mujeres trabajando en una plantación de café. Una mujer con sombrero blanco está parada a la derecha, sosteniendo un balde lleno de granos de café rojos. A la izquierda, otra mujer con camisa verde está agachada, examinando las plantas de café. Ambas están rodeadas de arbustos de café con hojas verdes y algunos granos rojos visibles. El fondo muestra una colina verde con árboles." />
+  <div>
+    <form autocomplete="off" autocapitalize="on" action="mailto:alimentosaltamira23@gmail.com" method="post" class="p-16 flex flex-col gap-4 text-slate-900">
+      <h2 class="text-4xl text-center">Contactanos</h2>
+      <label class="flex flex-col gap-1">
+        Email
+        <input type="email" name="email" placeholder="rafaelpisani19@gmail.com" class="rounded-lg p-3 outline-none bg-[#975c20]/40" required />
+      </label>
+      <label class="flex flex-col gap-1">
+        Nombres
+        <input type="text" name="name" placeholder="Rafael Pisani" class="rounded-lg p-3 outline-none bg-[#975c20]/40" required />
+      </label>
+      <label class="flex flex-col gap-1">
+        Numero de Telefono
+        <input type="text" name="phone" placeholder="+584247413675" class="rounded-lg p-3 outline-none bg-[#975c20]/40" required />
+      </label>
+      <label class="flex flex-col gap-1">
+        Descripcion de Solicitud
+        <textarea name="description" cols="30" placeholder="Quiero cafe!" class="rounded-lg p-3 outline-none bg-[#975c20]/40 resize-none" required></textarea>
+      </label>
+      <button class="bg-dark-green text-white cursor-pointer px-5 py-2 rounded-lg" type="submit" onclick="this.form.action = 'mailto:alimentosaltamira23@gmail.com?subject=' + encodeURIComponent('Solicitud de ' + this.form.name.value) + '&body=' + encodeURIComponent('Email: ' + this.form.email.value + '\nNombres: ' + this.form.name.value + '\nNumero de Telefono: ' + this.form.phone.value + '\nDescripcion de Solicitud: ' + this.form.description.value);">Enviar Solicitud</button>
+    </form>
+  </div>
+</section>

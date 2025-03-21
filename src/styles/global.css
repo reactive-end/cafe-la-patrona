@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Helvetica-Condensed';
+  src: url('../../public/fonts/helvetica.woff2');
+}
+
+@theme {
+  --color-golden: #f3ad47;
+  --color-dark-golden: #b67838;
+  --color-dark-red: #450202;
+  --color-dark-green: #576138;
+  --font-special: "Helvetica-Condensed";
+}

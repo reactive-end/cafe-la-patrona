@@ -1,22 +1,65 @@
+---
+// filepath: c:\Development\Astro\cafe-la-patrona\src\layouts\Layout.astro
+import "../styles/global.css";
+---
+
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/webp" href="/images/logo_2.webp" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Cafe La Patrona</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Desde las montañas del Jardín de Venezuela, se produce Café La Patrona, honrando la tierra fértil y pensando en satisfacer paladares con la delicadeza de un producto cargado de sabor y aromas que vienen de manos de mujeres campesinas, hasta su taza."
+    />
+    <meta
+      name="keywords"
+      content="café, tienda de café, productos de café, café orgánico"
+    />
+    <meta name="author" content="reactive-end" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Cafe La Patrona" />
+    <meta
+      property="og:description"
+      content="Desde las montañas del Jardín de Venezuela, se produce Café La Patrona, honrando la tierra fértil y pensando en satisfacer paladares con la delicadeza de un producto cargado de sabor y aromas que vienen de manos de mujeres campesinas, hasta su taza."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Cafe La Patrona" />
+    <meta property="og:url" content="https://www.tusitioweb.com" />
+    <meta property="og:image" content="/images/og.png" />
+    <meta property="og:locale" content="es_ES" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/images/og.png" />
+    <meta name="twitter:title" content="Cafe La Patrona" />
+    <meta
+      name="twitter:description"
+      content="Desde las montañas del Jardín de Venezuela, se produce Café La Patrona, honrando la tierra fértil y pensando en satisfacer paladares con la delicadeza de un producto cargado de sabor y aromas que vienen de manos de mujeres campesinas, hasta su taza."
+    />
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, sans-serif, Arial;
+  }
+
+  input {
+    outline: none;
+  }
 </style>
