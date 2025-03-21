@@ -1,48 +1,27 @@
-# Astro Starter Kit: Basics
+# Café La Patrona
 
-```sh
-npm create astro@latest -- --template basics
-```
+![Logotipo de Café La Patrona](public/images/logo_2.webp)  
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Desde las montañas del Jardín de Venezuela, se produce Café La Patrona, honrando la tierra fértil y pensando en satisfacer paladares con la delicadeza de un producto cargado de sabor y aromas que vienen de manos de mujeres campesinas, hasta su taza.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Descripción
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Café La Patrona es un café de origen único, cultivado en las montañas del Jardín de Venezuela. Nuestro café se caracteriza por su sabor y aroma excepcionales, resultado del cuidado y dedicación de las mujeres campesinas que lo cultivan.
 
-## 🚀 Project Structure
+## Características
 
-Inside of your Astro project, you'll see the following folders and files:
+* **Origen:** Montañas del Jardín de Venezuela.
+* **Cultivo:** Realizado por mujeres campesinas.
+* **Sabor:** Delicado, con notas únicas.
+* **Aroma:** Intenso y cautivador.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Cómo disfrutarlo
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Para disfrutar al máximo de Café La Patrona, te recomendamos prepararlo utilizando métodos de filtrado como la prensa francesa, el V60 o la cafetera Chemex. También puedes disfrutarlo en espresso o en tu bebida favorita a base de café.
 
-## 🧞 Commands
+## Contacto
 
-All commands are run from the root of the project, from a terminal:
+Para más información sobre Café La Patrona, contáctanos en:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+* **Correo electrónico:** [alimentosaltamira23@gmail.com](mailto:alimentosaltamira23@gmail.com)
+* **Teléfono:** [+58412-3145044]
