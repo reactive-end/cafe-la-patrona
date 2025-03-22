@@ -19,7 +19,27 @@
         Descripcion de Solicitud
         <textarea name="description" cols="30" placeholder="Quiero cafe!" class="rounded-lg p-3 outline-none bg-[#975c20]/40 resize-none" required></textarea>
       </label>
-      <button class="bg-dark-green text-white cursor-pointer px-5 py-2 rounded-lg" type="submit" onclick="this.form.action = 'mailto:alimentosaltamira23@gmail.com?subject=' + encodeURIComponent('Solicitud de ' + this.form.name.value) + '&body=' + encodeURIComponent('Email: ' + this.form.email.value + '\nNombres: ' + this.form.name.value + '\nNumero de Telefono: ' + this.form.phone.value + '\nDescripcion de Solicitud: ' + this.form.description.value);">Enviar Solicitud</button>
+      <button class="bg-dark-green text-white cursor-pointer px-5 py-2 rounded-lg" type="submit">Enviar Solicitud</button>
     </form>
   </div>
 </section>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('form')
+
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault()
+
+      const email = form.querySelector('input[name="email"]').value
+      const name = form.querySelector('input[name="name"]').value
+      const phone = form.querySelector('input[name="phone"]').value
+      const description = form.querySelector('textarea[name="description"]').value
+
+      const mailtoLink = `mailto:alimentosaltamira23@gmail.com?subject=${encodeURIComponent('Solicitud de: ' + name)}&body=${encodeURIComponent(`Email: ${email}\nNombre: ${name}\nTelefono: ${phone}\nDescripcion: ${description}`)}`
+      form.action = mailtoLink
+
+      form.submit()
+    })
+  })
+</script>
