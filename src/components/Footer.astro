@@ -8,49 +8,53 @@ import GitHub from "./Icons/GitHub.astro";
 ---
 
 <footer class="min-h-[300px] bg-zinc-900 p-8 text-white">
-  <div>
-    <img draggable="false" class="w-32" src="/images/logo_2.webp" alt="Logotipo de Café La Patrona con letras doradas cursivas y una ilustración de una mujer con sombrero de vaquero en blanco y negro." />
-  </div>
-  <div class="grid grid-cols-1 md:grid-cols-3">
-    <div class="flex flex-col gap-3 py-6">
-      <h3 class="text-xl">Contactanos</h3>
-      <span class="flex gap-2 max-w-[50ch]">
-        <Location />
-        Carretera Principal. Sector el Palchal San Rafael. Boconó Estado Trujillo
-      </span>
-      <span class="flex gap-2">
-        <Phone />
-        +58 412-3145044
-      </span>
-      <span class="flex gap-2">
-        <Email />
-        alimentosaltamira23@gmail.com
-      </span>
+  <div class="flex items-start gap-2">
+    <div>
+      <img draggable="false" class="aspect-square w-32 h-32" src="/images/logo_2.webp" alt="Logotipo de Café La Patrona con letras doradas cursivas y una ilustración de una mujer con sombrero de vaquero en blanco y negro." />
+      <div class="grid grid-cols-1 gap-2 md:grid-cols-3">
+        <div class="flex flex-col gap-3 py-6">
+          <h3 class="text-xl">Contáctanos</h3>
+          <span class="flex gap-2 max-w-[50ch]">
+            <Location />
+            Carretera Principal. Sector el Palchal San Rafael. Boconó Estado Trujillo
+          </span>
+          <span class="flex gap-2">
+            <Phone />
+            +58 412-3145044
+          </span>
+          <span class="flex gap-2">
+            <Email />
+            alimentosaltamira23@gmail.com
+          </span>
+        </div>
+        <div class="flex flex-col gap-3 py-6">
+          <h3 class="text-xl">Síguenos</h3>
+          <span class="flex gap-2">
+            <Instagram />
+            <a
+              target="_blank"
+              class="underline text-blue-500"
+              href="https://www.instagram.com/eslapatrona"
+              >www.instagram.com/eslapatrona</a
+            >
+          </span>
+          <span class="flex gap-2">
+            <TikTok />
+            <a
+              target="_blank"
+              class="underline text-blue-500"
+              href="https://www.tiktok.com/@eslapatrona"
+              >www.tiktok.com/@eslapatrona</a
+            >
+          </span>
+        </div>
+        <div class="flex justify-center items-center">
+          <img draggable="false" class="h-48" src="/images/sello.webp" alt="Logotipo de café con las palabras '100% ARABICO' y 'SOBRE 1800 M.S.N.M' en un círculo verde alrededor de una banda verde con el texto 'CAFÉ DE ORIGEN ÚNICO' En el centro del círculo hay una ilustración de dos hojas verdes." />
+        </div>
+      </div>
     </div>
-    <div class="flex flex-col gap-3 py-6">
-      <h3 class="text-xl">Siguenos</h3>
-      <span class="flex gap-2">
-        <Instagram />
-        <a
-          target="_blank"
-          class="underline text-blue-500"
-          href="https://www.instagram.com/eslapatrona"
-          >www.instagram.com/eslapatrona</a
-        >
-      </span>
-      <span class="flex gap-2">
-        <TikTok />
-        <a
-          target="_blank"
-          class="underline text-blue-500"
-          href="https://www.tiktok.com/@eslapatrona"
-          >www.tiktok.com/@eslapatrona</a
-        >
-      </span>
-    </div>
-    <div></div>
   </div>
-  <h4 class="text-center text-zinc-700 text-bold flex gap-2 justify-center items-center">
+  <h4 class="text-center text-zinc-700 text-bold flex gap-2 mt-5 justify-center items-center">
     <span>Rafael Pisani - 2025</span>
     <GitHub />
     <span>reactive-end</span>
